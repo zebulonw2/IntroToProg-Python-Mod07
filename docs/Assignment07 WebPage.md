@@ -51,7 +51,7 @@ I then used PyCharm to run the script when the file was correctly named (**Figur
 ![Figure 6](https://github.com/zebulonw2/IntroToProg-Python-Mod07/blob/main/docs/Figure6.png "Figure 6")  
 **Figure 6 -- File named correctly**  
 
-And the script ran as expected (**Figure 7**)  
+And the script ran as expected (**Figure 7**) and generated a binary file (**Figure 8**)  
 
 ![Figure 7](https://github.com/zebulonw2/IntroToProg-Python-Mod07/blob/main/docs/Figure7.png "Figure 7")  
 **Figure 7 -- List item derived from .txt file, user directing script to make binary file**
