@@ -20,7 +20,7 @@ I like these pages because they are comprehensive and I have the confidence that
 ### File Not Found  
 When the user runs the script, the first thing it does it to try opening a .txt file and writing the data within into a list item, using the following function (**Figure 1**)  
 
-![Figure 1](https://github.com/zebulonw2/IntroToProg-Python-Mod07/blob/main/docs/attachments/Figure1.png "Figure 1")  
+![Figure 1](https://raw.githubusercontent.com/zebulonw2/IntroToProg-Python-Mod07/main/docs/attachments/Figure1.png "Figure 1")  
 **Figure 1 -- Add data from .txt file into list item**  
 
 I added an exception to handle a ‘FileNotFoundError.’ This would be triggered if the file name was misspelled, or if the file was not located in the same folder as the script. If this error was triggered I displayed a simple message to the user explaining how to proceed. (**Figure 2**) I also added a general error message, which instructs the user to send the error information to the programming department so they could look into it and add more try-except blocks to the code, so the next time that error is encountered there will be a better presentation to the user.  
