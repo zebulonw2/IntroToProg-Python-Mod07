@@ -25,38 +25,38 @@ When the user runs the script, the first thing it does it to try opening a .txt 
 
 I added an exception to handle a ‘FileNotFoundError.’ This would be triggered if the file name was misspelled, or if the file was not located in the same folder as the script. If this error was triggered I displayed a simple message to the user explaining how to proceed. (**Figure 2**) I also added a general error message, which instructs the user to send the error information to the programming department so they could look into it and add more try-except blocks to the code, so the next time that error is encountered there will be a better presentation to the user.  
 
-![Figure 2](https://github.com/zebulonw2/IntroToProg-Python-Mod07/blob/main/docs/attachments/Figure2.png "Figure 2")  
+![Figure 2](https://raw.githubusercontent.com/zebulonw2/IntroToProg-Python-Mod07/main/docs/attachments/Figure2.png "Figure 2")  
 **Figure 2-- Try-Except block**  
 
 ### Pickling
 
 If the file is correctly named, and present in the correct folder, it will be added to a list. I then created a function that, when instructed to do so by the user, will add that list to a binary file (**Figure 3**) The function opens a new file in ‘write-binary’ or ‘wb’ mode, then uses the pickle method ‘dump()’ to add the contents of the list into the new file.  
 
-![Figure 3](https://github.com/zebulonw2/IntroToProg-Python-Mod07/blob/main/docs/attachments/Figure3.png "Figure 3")  
+![Figure 3](https://raw.githubusercontent.com/zebulonw2/IntroToProg-Python-Mod07/main/docs/attachments/Figure3.png "Figure 3")  
 **Figure 3 --Pickle list**  
 
 ### Testing the script  
 I first ran the script in the command shell, and to test the error handling I made sure the file name was not spelled correctly (**Figure 4**)  
 
-![Figure 4](https://github.com/zebulonw2/IntroToProg-Python-Mod07/blob/main/docs/attachments/Figure4.png "Figure 4")  
+![Figure 4](https://raw.githubusercontent.com/zebulonw2/IntroToProg-Python-Mod07/main/docs/attachments/Figure4.png "Figure 4")  
 **Figure 4 -- File name with errant underscore**  
 
 The exception block worked as expected (**Figure 5**)  
 
-![Figure 5](https://github.com/zebulonw2/IntroToProg-Python-Mod07/blob/main/docs/attachments/Figure5.png "Figure 5")  
+![Figure 5](https://raw.githubusercontent.com/zebulonw2/IntroToProg-Python-Mod07/main/docs/attachments/Figure5.png "Figure 5")  
 **Figure 5 -- Error message produced by "FileNotFoundError"**  
 
 I then used PyCharm to run the script when the file was correctly named (**Figure 6**)  
 
-![Figure 6](https://github.com/zebulonw2/IntroToProg-Python-Mod07/blob/main/docs/attachments/Figure6.png "Figure 6")  
+![Figure 6](https://raw.githubusercontent.com/zebulonw2/IntroToProg-Python-Mod07/main/docs/attachments/Figure6.png "Figure 6")  
 **Figure 6 -- File named correctly**  
 
 And the script ran as expected (**Figure 7**) and generated a binary file (**Figure 8**)  
 
-![Figure 7](https://github.com/zebulonw2/IntroToProg-Python-Mod07/blob/main/docs/attachments/Figure7.png "Figure 7")  
+![Figure 7](https://raw.githubusercontent.com/zebulonw2/IntroToProg-Python-Mod07/main/docs/attachments/Figure7.png "Figure 7")  
 **Figure 7 -- List item derived from .txt file, user directing script to make binary file**
 
-![Figure 8](https://github.com/zebulonw2/IntroToProg-Python-Mod07/blob/main/docs/attachments/Figure8.png "Figure 8")  
+![Figure 8](https://raw.githubusercontent.com/zebulonw2/IntroToProg-Python-Mod07/main/docs/attachments/Figure8.png "Figure 8")  
 
 ### Appendix: ZWAssignment07.py script text
 ```
